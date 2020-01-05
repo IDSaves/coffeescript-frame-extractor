@@ -1,0 +1,20 @@
+{
+  "name": "coffeeFrameExtractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "coffee index.coffee"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffeescript": "^2.5.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "gifencoder": "^2.0.1",
+    "jimp": "^0.9.3",
+    "png-file-stream": "^1.2.1",
+    "sharp": "^0.23.4"
+  }
+}
