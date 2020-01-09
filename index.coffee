@@ -9,7 +9,6 @@ encoder = new GIFEncoder 320, 240
 
 arr = fs.readdirSync "./input"
 
-
 generateGif = (video) ->
     pngFileStream("./output/Output #{video}/tn_?_resized.png")
         .pipe(encoder.createWriteStream({ repeat: 0, delay: 500, quality: 10 }))
@@ -35,4 +34,7 @@ saveScreens = (video) ->
 
 
 for video in arr
-    saveScreens(video)
+    name = video.split "."
+    extension = name[name.length - 1]
+    if extension == "mp4" or extension == "avi" or extension == "mov" or extension == "flv" or extension == "wmv"
+        saveScreens(video)
