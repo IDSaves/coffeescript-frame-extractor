@@ -15,6 +15,6 @@
     "gifencoder": "^2.0.1",
     "jimp": "^0.9.3",
     "png-file-stream": "^1.2.1",
-    "sharp": "^0.23.4"
+    "sharp": "^0.30.5"
   }
 }
